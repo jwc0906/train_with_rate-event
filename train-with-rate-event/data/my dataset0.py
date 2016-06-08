@@ -1,7 +1,7 @@
 import predictionio
 
 client = predictionio.EventClient(
-  access_key="EFb6fVppPuBn8xZng2X95NN4A7S4GFfcHtLOLUqixFYxutKtVrBv0LB1wePvGP7C",
+  access_key="OnbeZSGcjdQQnwC6DL1cV6vmcpkZqIQgVzloN9p0KZV9XHDa5dKi6vrkoYvcevJ8",
   url="http://localhost:7070",
   threads=5,
   qsize=500
@@ -32,10 +32,17 @@ for item_id in item_ids:
 # def a new rating
 
 def rating(user, item, rate):
-    client.create_event(event="rate", entity_type="user", entity_id=user, target_entity_type="item",
-    target_entity_id=item, properties={"rating" : rate})
+    client.create_event(
+	event="rate",
+	entity_type="user",
+	entity_id=user,
+	target_entity_type="item",
+	target_entity_id=item,
+	properties={"rating" : float(rate)}
+	)
 print "def"
 # create a new rating
+
 
 rating("u0", "i0", 4)
 rating("u0", "i1", 4)

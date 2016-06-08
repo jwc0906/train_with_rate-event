@@ -29,3 +29,81 @@
 2016-05-30 21:23:38,398 INFO  io.prediction.tools.console.App$ [main] -       App ID: 9
 2016-05-30 21:23:38,408 INFO  io.prediction.tools.console.App$ [main] -  Description: None
 2016-05-30 21:23:41,147 INFO  io.prediction.tools.console.App$ [main] - Aborted.
+2016-06-02 02:32:02,856 INFO  io.prediction.tools.console.App$ [main] - Data of the following app (default channel only) will be deleted. Are you sure?
+2016-06-02 02:32:02,875 INFO  io.prediction.tools.console.App$ [main] -     App Name: real0
+2016-06-02 02:32:02,885 INFO  io.prediction.tools.console.App$ [main] -       App ID: 1
+2016-06-02 02:32:02,885 INFO  io.prediction.tools.console.App$ [main] -  Description: None
+2016-06-02 02:32:04,503 INFO  io.prediction.tools.console.App$ [main] - Aborted.
+2016-06-02 02:33:35,785 INFO  io.prediction.tools.console.App$ [main] - Data of the following app (default channel only) will be deleted. Are you sure?
+2016-06-02 02:33:35,799 INFO  io.prediction.tools.console.App$ [main] -     App Name: real0
+2016-06-02 02:33:35,800 INFO  io.prediction.tools.console.App$ [main] -       App ID: 1
+2016-06-02 02:33:35,801 INFO  io.prediction.tools.console.App$ [main] -  Description: None
+2016-06-02 02:33:38,126 INFO  io.prediction.tools.console.App$ [main] - Aborted.
+2016-06-02 02:33:58,908 WARN  io.prediction.tools.console.Template$ [main] - template.json does not exist. Template metadata will not be available. (This is safe to ignore if you are not working on a template.)
+2016-06-02 02:33:58,935 INFO  io.prediction.tools.console.Console$ [main] - Using command '/home/yhjgoldhair/PredictionIO/sbt/sbt' at the current working directory to build.
+2016-06-02 02:33:58,940 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2016-06-02 02:33:58,953 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled, but current working directory does not look like an engine project directory. Please delete lib/pio-assembly-0.9.6.jar manually.
+2016-06-02 02:33:58,955 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /home/yhjgoldhair/PredictionIO/sbt/sbt  package assemblyPackageDependency
+2016-06-02 02:33:59,518 INFO  io.prediction.tools.console.Console$ [Thread-2] - Attempting to fetch sbt
+2016-06-02 02:33:59,772 ERROR io.prediction.tools.console.Console$ [Thread-3] - *   Trying 52.6.232.86...
+2016-06-02 02:33:59,994 ERROR io.prediction.tools.console.Console$ [Thread-3] - * Connected to repo.typesafe.com (52.6.232.86) port 80 (#0)
+2016-06-02 02:33:59,994 ERROR io.prediction.tools.console.Console$ [Thread-3] - > GET /typesafe/ivy-releases/org.scala-sbt/sbt-launch/0.13.7/sbt-launch.jar HTTP/1.1
+2016-06-02 02:33:59,995 ERROR io.prediction.tools.console.Console$ [Thread-3] - > Host: repo.typesafe.com
+2016-06-02 02:33:59,995 ERROR io.prediction.tools.console.Console$ [Thread-3] - > User-Agent: curl/7.47.0
+2016-06-02 02:33:59,995 ERROR io.prediction.tools.console.Console$ [Thread-3] - > Accept: */*
+2016-06-02 02:33:59,995 ERROR io.prediction.tools.console.Console$ [Thread-3] - > 
+2016-06-02 02:34:00,220 ERROR io.prediction.tools.console.Console$ [Thread-3] - < HTTP/1.1 302 Moved Temporarily
+2016-06-02 02:34:00,220 ERROR io.prediction.tools.console.Console$ [Thread-3] - < Content-Type: text/html
+2016-06-02 02:34:00,222 ERROR io.prediction.tools.console.Console$ [Thread-3] - < Date: Thu, 02 Jun 2016 09:34:28 GMT
+2016-06-02 02:34:00,222 ERROR io.prediction.tools.console.Console$ [Thread-3] - < Location: http://dl.bintray.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/0.13.7/sbt-launch.jar
+2016-06-02 02:34:00,223 ERROR io.prediction.tools.console.Console$ [Thread-3] - < Server: nginx/1.8.0
+2016-06-02 02:34:00,223 ERROR io.prediction.tools.console.Console$ [Thread-3] - < Content-Length: 160
+2016-06-02 02:34:00,223 ERROR io.prediction.tools.console.Console$ [Thread-3] - < Connection: keep-alive
+2016-06-02 02:34:00,223 ERROR io.prediction.tools.console.Console$ [Thread-3] - < 
+2016-06-02 02:34:00,223 ERROR io.prediction.tools.console.Console$ [Thread-3] - * Ignoring the response-body
+2016-06-02 02:34:00,223 ERROR io.prediction.tools.console.Console$ [Thread-3] - { [160 bytes data]
+2016-06-02 02:34:00,223 ERROR io.prediction.tools.console.Console$ [Thread-3] - 
+2016-06-02 02:34:00,224 ERROR io.prediction.tools.console.Console$ [Thread-3] - ######################################################################## 100.0%* Connection #0 to host repo.typesafe.com left intact
+2016-06-02 02:34:00,224 ERROR io.prediction.tools.console.Console$ [Thread-3] - * Issue another request to this URL: 'http://dl.bintray.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/0.13.7/sbt-launch.jar'
+2016-06-02 02:34:00,349 ERROR io.prediction.tools.console.Console$ [Thread-3] - *   Trying 108.168.243.150...
+2016-06-02 02:34:00,534 ERROR io.prediction.tools.console.Console$ [Thread-3] - * Connected to dl.bintray.com (108.168.243.150) port 80 (#1)
+2016-06-02 02:34:00,534 ERROR io.prediction.tools.console.Console$ [Thread-3] - > GET /typesafe/ivy-releases/org.scala-sbt/sbt-launch/0.13.7/sbt-launch.jar HTTP/1.1
+2016-06-02 02:34:00,534 ERROR io.prediction.tools.console.Console$ [Thread-3] - > Host: dl.bintray.com
+2016-06-02 02:34:00,535 ERROR io.prediction.tools.console.Console$ [Thread-3] - > User-Agent: curl/7.47.0
+2016-06-02 02:34:00,535 ERROR io.prediction.tools.console.Console$ [Thread-3] - > Accept: */*
+2016-06-02 02:34:00,535 ERROR io.prediction.tools.console.Console$ [Thread-3] - > 
+2016-06-02 02:34:00,761 ERROR io.prediction.tools.console.Console$ [Thread-3] - < HTTP/1.1 302 
+2016-06-02 02:34:00,762 ERROR io.prediction.tools.console.Console$ [Thread-3] - < Server: nginx
+2016-06-02 02:34:00,762 ERROR io.prediction.tools.console.Console$ [Thread-3] - < Date: Thu, 02 Jun 2016 09:34:00 GMT
+2016-06-02 02:34:00,762 ERROR io.prediction.tools.console.Console$ [Thread-3] - < Content-Length: 0
+2016-06-02 02:34:00,763 ERROR io.prediction.tools.console.Console$ [Thread-3] - < Connection: keep-alive
+2016-06-02 02:34:00,763 ERROR io.prediction.tools.console.Console$ [Thread-3] - < Location: http://akamai.bintray.com/b4/b407b2a76ad72165f806ac7e7ea09132b951ef53?__gda__=exp=1464860760~hmac=4924f26bb9d8d34877ca14c43b380842dbea0c76c0190dfff21b061eaab0bee5&response-content-disposition=attachment%3Bfilename%3D%22sbt-launch.jar%22&response-content-type=application%2Foctet-stream
+2016-06-02 02:34:00,763 ERROR io.prediction.tools.console.Console$ [Thread-3] - < 
+2016-06-02 02:34:00,763 ERROR io.prediction.tools.console.Console$ [Thread-3] - * Connection #1 to host dl.bintray.com left intact
+2016-06-02 02:34:00,763 ERROR io.prediction.tools.console.Console$ [Thread-3] - * Issue another request to this URL: 'http://akamai.bintray.com/b4/b407b2a76ad72165f806ac7e7ea09132b951ef53?__gda__=exp=1464860760~hmac=4924f26bb9d8d34877ca14c43b380842dbea0c76c0190dfff21b061eaab0bee5&response-content-disposition=attachment%3Bfilename%3D%22sbt-launch.jar%22&response-content-type=application%2Foctet-stream'
+2016-06-02 02:34:00,893 ERROR io.prediction.tools.console.Console$ [Thread-3] - *   Trying 104.74.152.233...
+2016-06-02 02:34:00,907 ERROR io.prediction.tools.console.Console$ [Thread-3] - * Connected to akamai.bintray.com (104.74.152.233) port 80 (#2)
+2016-06-02 02:34:00,908 ERROR io.prediction.tools.console.Console$ [Thread-3] - > GET /b4/b407b2a76ad72165f806ac7e7ea09132b951ef53?__gda__=exp=1464860760~hmac=4924f26bb9d8d34877ca14c43b380842dbea0c76c0190dfff21b061eaab0bee5&response-content-disposition=attachment%3Bfilename%3D%22sbt-launch.jar%22&response-content-type=application%2Foctet-stream HTTP/1.1
+2016-06-02 02:34:00,908 ERROR io.prediction.tools.console.Console$ [Thread-3] - > Host: akamai.bintray.com
+2016-06-02 02:34:00,909 ERROR io.prediction.tools.console.Console$ [Thread-3] - > User-Agent: curl/7.47.0
+2016-06-02 02:34:00,911 ERROR io.prediction.tools.console.Console$ [Thread-3] - > Accept: */*
+2016-06-02 02:34:00,912 ERROR io.prediction.tools.console.Console$ [Thread-3] - > 
+2016-06-02 02:34:00,930 ERROR io.prediction.tools.console.Console$ [Thread-3] - < HTTP/1.1 200 OK
+2016-06-02 02:34:00,930 ERROR io.prediction.tools.console.Console$ [Thread-3] - < Server: Apache
+2016-06-02 02:34:00,930 ERROR io.prediction.tools.console.Console$ [Thread-3] - < ETag: "7341059aa30c953021d6af41c89d2cac:1454730505"
+2016-06-02 02:34:00,930 ERROR io.prediction.tools.console.Console$ [Thread-3] - < Last-Modified: Tue, 21 Apr 2015 16:03:07 GMT
+2016-06-02 02:34:00,935 ERROR io.prediction.tools.console.Console$ [Thread-3] - < Accept-Ranges: bytes
+2016-06-02 02:34:00,939 ERROR io.prediction.tools.console.Console$ [Thread-3] - < Content-Length: 1208380
+2016-06-02 02:34:00,939 ERROR io.prediction.tools.console.Console$ [Thread-3] - < Date: Thu, 02 Jun 2016 09:34:00 GMT
+2016-06-02 02:34:00,940 ERROR io.prediction.tools.console.Console$ [Thread-3] - < Connection: keep-alive
+2016-06-02 02:34:00,943 ERROR io.prediction.tools.console.Console$ [Thread-3] - < Content-Type: application/octet-stream
+2016-06-02 02:34:00,944 ERROR io.prediction.tools.console.Console$ [Thread-3] - < content-disposition: attachment;filename="sbt-launch.jar"
+2016-06-02 02:34:00,944 ERROR io.prediction.tools.console.Console$ [Thread-3] - < 
+2016-06-02 02:34:00,946 ERROR io.prediction.tools.console.Console$ [Thread-3] - { [16043 bytes data]
+2016-06-02 02:34:01,008 DEBUG io.prediction.workflow.UpgradeCheckRunner [Thread-0] - Update metainfo not found. https://direct.prediction.io/0.9.6/build.json
+2016-06-02 02:34:01,011 ERROR io.prediction.tools.console.Console$ [Thread-3] - 
+2016-06-02 02:34:01,075 ERROR io.prediction.tools.console.Console$ [Thread-3] - #################################                                         46.9%
+2016-06-02 02:34:01,090 ERROR io.prediction.tools.console.Console$ [Thread-3] - ######################################################################## 100.0%* Connection #2 to host akamai.bintray.com left intact
+2016-06-02 02:34:01,091 ERROR io.prediction.tools.console.Console$ [Thread-3] - 
+2016-06-02 02:34:01,103 INFO  io.prediction.tools.console.Console$ [Thread-2] - Launching sbt from /home/yhjgoldhair/PredictionIO/sbt/sbt-launch-0.13.7.jar
+2016-06-02 02:34:01,952 INFO  io.prediction.tools.console.Console$ [Thread-2] - Getting org.scala-sbt sbt 0.13.7 ...

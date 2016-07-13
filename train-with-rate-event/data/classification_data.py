@@ -79,16 +79,16 @@ for i in range(0,100):
 			break
 	for k in range(0, 10):
 		ritem=random.randint(0,189)
-		if ritem<=9:
+		if ritem<9:
 			inum=ritem
 			rating("u"+str(i), "s001_"+str(inum), ws.row_values(taste_row)[2])
-		elif ritem<=106:
+		elif ritem<106:
 			inum=ritem-9
 			rating("u"+str(i), "s100_"+str(inum), ws.row_values(taste_row)[3])
-		elif ritem<=156:
+		elif ritem<156:
 			inum=ritem-106
 			rating("u"+str(i), "s010_"+str(inum), ws.row_values(taste_row)[4])
-		elif ritem<=176:
+		elif ritem<176:
 			inum=ritem-156
 			rating("u"+str(i), "s110_"+str(inum), ws.row_values(taste_row)[5])
 		else:
@@ -107,16 +107,16 @@ for i in range(100,350):
 			break
 	for k in range(0, 30):
 		ritem=random.randint(0,189)
-		if ritem<=9:
+		if ritem<9:
 			inum=ritem
 			rating("u"+str(i), "s001_"+str(inum), ws.row_values(taste_row)[2])
-		elif ritem<=106:
+		elif ritem<106:
 			inum=ritem-9
 			rating("u"+str(i), "s100_"+str(inum), ws.row_values(taste_row)[3])
-		elif ritem<=156:
+		elif ritem<156:
 			inum=ritem-106
 			rating("u"+str(i), "s010_"+str(inum), ws.row_values(taste_row)[4])
-		elif ritem<=176:
+		elif ritem<176:
 			inum=ritem-156
 			rating("u"+str(i), "s110_"+str(inum), ws.row_values(taste_row)[5])
 		else:
@@ -134,16 +134,16 @@ for i in range(350,450):
 			break
 	for k in range(0, 60):
 		ritem=random.randint(0,189)
-		if ritem<=9:
+		if ritem<9:
 			inum=ritem
 			rating("u"+str(i), "s001_"+str(inum), ws.row_values(taste_row)[2])
-		elif ritem<=106:
+		elif ritem<106:
 			inum=ritem-9
 			rating("u"+str(i), "s100_"+str(inum), ws.row_values(taste_row)[3])
-		elif ritem<=156:
+		elif ritem<156:
 			inum=ritem-106
 			rating("u"+str(i), "s010_"+str(inum), ws.row_values(taste_row)[4])
-		elif ritem<=176:
+		elif ritem<176:
 			inum=ritem-156
 			rating("u"+str(i), "s110_"+str(inum), ws.row_values(taste_row)[5])
 		else:
@@ -161,16 +161,16 @@ for i in range(450,500):
 			break
 	for k in range(0, 100):
 		ritem=random.randint(0,189)
-		if ritem<=9:
+		if ritem<9:
 			inum=ritem
 			rating("u"+str(i), "s001_"+str(inum), ws.row_values(taste_row)[2])
-		elif ritem<=106:
+		elif ritem<106:
 			inum=ritem-9
 			rating("u"+str(i), "s100_"+str(inum), ws.row_values(taste_row)[3])
-		elif ritem<=156:
+		elif ritem<156:
 			inum=ritem-106
 			rating("u"+str(i), "s010_"+str(inum), ws.row_values(taste_row)[4])
-		elif ritem<=176:
+		elif ritem<176:
 			inum=ritem-156
 			rating("u"+str(i), "s110_"+str(inum), ws.row_values(taste_row)[5])
 		else:
